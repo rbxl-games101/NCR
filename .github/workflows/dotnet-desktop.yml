@@ -1,0 +1,23 @@
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test-build:
+    name: test if netblox even builds
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.5
+      - name: Build
+        uses: EasyDesk/action-dotnet-build@v1.0.0
+      - name: Upload NetBlox Client for Windows
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: NetBloxClientWindows
+          path: ./UniversalClient/bin/Release/net8.0/
+      - name: Upload NetBlox Installer for Windows
+        uses: actions/upload-artifact@v4.3.3
+        with:
+          name: NetBloxInstallerWindows
+          path: ./UniversalInstaller/bin/Release/net8.0/

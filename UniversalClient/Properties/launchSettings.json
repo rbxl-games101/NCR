@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UniversalClient": {
+      "commandName": "Project",
+      "commandLineArgs": "-cs {^^e^^:true,^^g^^:^^127.0.0.1^^}",
+      "nativeDebugging": false,
+      "remoteDebugEnabled": false
+    }
+  }
+}

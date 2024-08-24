@@ -1,0 +1,2 @@
+# NCR
+ JUST A CLONE

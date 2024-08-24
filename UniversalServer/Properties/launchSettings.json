@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "UniversalServer": {
+      "commandName": "Project",
+      "commandLineArgs": "-ss {^^f^^:25570}"
+    }
+  }
+}
