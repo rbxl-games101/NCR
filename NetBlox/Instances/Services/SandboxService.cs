@@ -11,7 +11,7 @@ namespace NetBlox.Instances.Services
 	{
 		public SandboxService(GameManager ins) : base(ins) 
 		{
-			ins.RenderManager.CurrentHint = "You're currently playing NetBlox Sandbox";
+			ins.RenderManager.CurrentHint = "You're currently playing NetBlox Sandbox COOL";
 		}
 
 		[Lua([Security.Capability.None])]

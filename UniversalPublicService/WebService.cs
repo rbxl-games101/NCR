@@ -88,6 +88,7 @@ namespace NetBlox.PublicService
 			HttpListener listener = new HttpListener();
 			listener.Prefixes.Add("http://+:80/");
 			listener.Start();
+			
 
 			Log.Information("WebService: Listening at port 80...");
 

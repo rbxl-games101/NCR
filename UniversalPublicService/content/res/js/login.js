@@ -10,7 +10,8 @@ class SearchPage extends React.Component {
 
 	render() {
 		return (<div>
-			<h1>Welcome to NetBlox!</h1>
+			
+			<h1>Welcome to NCR!</h1>
 			<p>Would you like to login today?</p>
 			<p>
 				<input id="usern" placeholder="Username"></input>

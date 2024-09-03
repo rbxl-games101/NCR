@@ -9,7 +9,7 @@ namespace NetBlox.PublicService
 	public static class Program
 	{
 		public static List<Service> Services = new();
-		public static string PublicServiceName = "";
+		public static string PublicServiceName = "NCR PUBLIC";
 		public static bool IsReadonly = false;
 		public static bool IsUnderMaintenance = false;
 

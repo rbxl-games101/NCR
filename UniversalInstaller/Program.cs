@@ -65,7 +65,7 @@ namespace UniversalInstaller
 				var hc = new HttpClient();
 				var req = new HttpRequestMessage()
 				{
-					RequestUri = new Uri("https://raw.githubusercontent.com/AsertCreator/NetBlox/master/NetBlox.Common/Version.cs")
+				RequestUri = new Uri("https://raw.githubusercontent.com/rbxl-game101/NCR/master/NetBlox.Common/Version.cs")
 				};
 				req.Headers.Add("User-Agent", "NetBloxInstallerv" +
 					NetBlox.Common.Version.VersionMajor + "." + NetBlox.Common.Version.VersionMinor + "." + NetBlox.Common.Version.VersionPatch);
@@ -90,7 +90,7 @@ namespace UniversalInstaller
 				var hc = new HttpClient();
 				var req = new HttpRequestMessage()
 				{
-					RequestUri = new Uri("https://api.github.com/repos/AsertCreator/NetBlox/actions/artifacts")
+					RequestUri = new Uri("https://api.github.com/repos/rbxl-games101/NCR/actions/artifacts")
 				};
 				req.Headers.Add("User-Agent", "NetBloxInstallerv" +
 					NetBlox.Common.Version.VersionMajor + "." + NetBlox.Common.Version.VersionMinor + "." + NetBlox.Common.Version.VersionPatch);
