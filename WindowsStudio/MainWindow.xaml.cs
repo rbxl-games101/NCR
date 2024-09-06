@@ -57,10 +57,7 @@ public partial class MainWindow : System.Windows.Window
 		var wb = new StartupTabView();
 		ti.Content = wb;
 
-		wb.githubLink.Click += (x, y) =>
-		{
-			OpenBrowserTab("GitHub", "https://github.com/AsertCreator/NetBlox");
-		};
+	
 		wb.openBaseplate.Click += (x, y) =>
 		{
 			OpenEditorTab();
@@ -116,14 +113,14 @@ public partial class MainWindow : System.Windows.Window
 				AsStudio = true,
 				SkipWindowCreation = true,
 				DoNotRenderAtAll = true,
-				GameName = "NetBlox Server (studio)"
+				GameName = "NCR Server (studio)"
 			}, ["-ss", "{}"], (gm) =>
 			{
 				gm.CurrentRoot.ClearAllChildren();
 
 				gm.CurrentIdentity.PlaceName = "Personal Place";
-				gm.CurrentIdentity.UniverseName = "NetBlox Studio";
-				gm.CurrentIdentity.Author = "NetBlox";
+				gm.CurrentIdentity.UniverseName = "NCR Studio";
+				gm.CurrentIdentity.Author = "NOONE";
 				gm.CurrentIdentity.MaxPlayerCount = 5;
 
 				var chd = dm.GetChildren();
@@ -162,7 +159,7 @@ public partial class MainWindow : System.Windows.Window
 					AsClient = true,
 					AsStudio = true,
 					SkipWindowCreation = true,
-					GameName = "NetBlox Client (studio)"
+					GameName = "NCR Client (studio)"
 				}, ["-cs", SerializationManager.SerializeJson<ClientStartupInfo>(new() {
 					IsGuest = true
 				})], (x) => { });
@@ -207,4 +204,14 @@ public partial class MainWindow : System.Windows.Window
 	{
 		OpenTab("Task Scheduler Profiler").Content = new TaskSchedulerProfiler();
 	}
+
+	private void tabs_SelectionChanged(object sender, SelectionChangedEventArgs e)
+	{
+
+	}
+
+	private void tabs_SelectionChanged_1(object sender, SelectionChangedEventArgs e)
+	{
+
+    }
 }

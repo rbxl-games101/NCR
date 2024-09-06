@@ -12,6 +12,7 @@ namespace NetBlox.PublicService
 		public static string PublicServiceName = "NCR PUBLIC";
 		public static bool IsReadonly = false;
 		public static bool IsUnderMaintenance = false;
+		
 
 		public static void Main(string[] args)
 		{

@@ -19,6 +19,7 @@ namespace NetBlox.PublicService
 				return Encoding.UTF8.GetBytes(File.ReadAllText("./content/forbidden.html"));
 			}
 
+			
 			if (Program.IsUnderMaintenance)
 			{
 				if (uri.StartsWith("/res"))

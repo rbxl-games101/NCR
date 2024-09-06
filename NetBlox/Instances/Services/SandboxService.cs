@@ -9,7 +9,7 @@ namespace NetBlox.Instances.Services
 {
 	public class SandboxService : Instance, I3DRenderable
 	{
-		public SandboxService(GameManager ins) : base(ins) 
+		public SandboxService(GameManager ins) : base(ins)
 		{
 			ins.RenderManager.CurrentHint = "You're currently playing NetBlox Sandbox COOL";
 		}
@@ -26,8 +26,9 @@ namespace NetBlox.Instances.Services
 			int my = Raylib.GetMouseY();
 			var mp = Raylib.GetMouseRay(new System.Numerics.Vector2()
 			{
-				X = mx, Y = my
-			}, 
+				X = mx,
+				Y = my
+			},
 			GameManager.RenderManager.MainCamera);
 			var works = Root.GetService<Workspace>(true);
 			if (works != null)
