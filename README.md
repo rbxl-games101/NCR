@@ -1,6 +1,6 @@
 # NCR - A Roblox Clone
 
-[![.github/workflows/dotnet-desktop.yml](https://github.com/rbxl-games101/NCR/actions/workflows/dotnet-desktop.yml/badge.svg?branch=main)](https://github.com/rbxl-games101/NCR/actions/workflows/dotnet-desktop.yml)
+[![.github/workflows/dotnet-desktop.yml](https://github.com/rbxl-games101/NCR/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/rbxl-games101/NCR/actions/workflows/dotnet-desktop.yml)
 
 ## Overview
 
