@@ -7,15 +7,10 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <StackPanel Orientation="Vertical" Margin="15">
-        <TextBlock FontWeight="Bold" FontSize="24" Margin="0,0,0,10">Welcome to NetBlox Studio!</TextBlock>
-        <TextBlock>
-			<Hyperlink x:Name="githubLink">
-				Open GitHub for shit and giggles
-			</Hyperlink>
-        </TextBlock>
+        <TextBlock FontWeight="Bold" FontSize="24" Margin="0,0,0,10">Welcome to NCR Studio!</TextBlock>
         <TextBlock>
 			<Hyperlink x:Name="openBaseplate">
-				Open baseplate for shit and giggles
+				Open baseplate
 			</Hyperlink>
         </TextBlock>
         <TextBlock>TODO: Start page</TextBlock>

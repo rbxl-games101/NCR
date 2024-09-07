@@ -117,7 +117,7 @@ namespace NetBlox.Client
 			GameManager cg = AppManager.CreateGame(new()
 			{
 				AsClient = true,
-				GameName = "CLIENT"
+				GameName = "CLIENT NCR"
 			},
 			args, (x) => { });
 			cg.MainManager = true;
@@ -134,6 +134,7 @@ namespace NetBlox.Client
 
 			AppManager.SetRenderTarget(cg);
 			AppManager.Start();
+			
 
 			return 0;
 		}

@@ -19,6 +19,7 @@ namespace NetBlox.PublicService
 				return Encoding.UTF8.GetBytes(File.ReadAllText("./content/forbidden.html"));
 			}
 
+			
 			if (Program.IsUnderMaintenance)
 			{
 				if (uri.StartsWith("/res"))
@@ -88,6 +89,7 @@ namespace NetBlox.PublicService
 			HttpListener listener = new HttpListener();
 			listener.Prefixes.Add("http://+:80/");
 			listener.Start();
+			
 
 			Log.Information("WebService: Listening at port 80...");
 

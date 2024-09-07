@@ -26,5 +26,5 @@ netblox.QueryService.getPlaceInfo(gid).then(x => {
 
 	root.render(<GameOverviewPage />);
 
-	document.querySelector("title").innerText = "NetBlox - " + x.name;
+	document.querySelector("title").innerText = "NCR - " + x.name;
 });

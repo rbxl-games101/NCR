@@ -27,6 +27,7 @@ namespace NetBlox.PublicService
 				Thread.Sleep(AutoSaveInterval);
 				SaveDatabase();
 			}
+			
 		}
 		protected override void OnStop()
 		{
