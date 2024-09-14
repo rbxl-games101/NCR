@@ -18,6 +18,8 @@ To install and run the project locally, clone the repository:
 
 You can create the `SECURITY.md` and `LICENSE.md` files in your repository with the relevant security policies and licensing details respectively.
 
+ty to AsertCreator  netblocks for his help mit linsens 2024
+
 
 ```bash
 git clone https://github.com/rbxl-games101/NCR.git
